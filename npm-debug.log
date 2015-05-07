@@ -1,0 +1,190 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt',
+1 verbose cli   'contrib-uglify',
+1 verbose cli   '--save' ]
+2 info using npm@2.7.5
+3 info using node@v0.12.2
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json clare_jacky@1.0.0 No repository field.
+6 warn package.json path@0.11.14 path is also the name of a node core module.
+7 verbose install grunt is installed as 0.4.5
+8 silly cache add args [ 'grunt@^0.4.5', null ]
+9 verbose cache add spec grunt@^0.4.5
+10 silly cache add args [ 'contrib-uglify', null ]
+11 verbose cache add spec contrib-uglify
+12 silly cache add parsed spec { raw: 'grunt@^0.4.5',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'grunt',
+12 silly cache add   rawSpec: '^0.4.5',
+12 silly cache add   spec: '>=0.4.5 <0.5.0',
+12 silly cache add   type: 'range' }
+13 verbose addNamed grunt@>=0.4.5 <0.5.0
+14 silly addNamed semver.valid null
+15 silly addNamed semver.validRange >=0.4.5 <0.5.0
+16 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+17 silly mapToRegistry name grunt
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/grunt
+21 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+22 silly cache add parsed spec { raw: 'contrib-uglify',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'contrib-uglify',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: '*',
+22 silly cache add   type: 'range' }
+23 verbose addNamed contrib-uglify@*
+24 silly addNamed semver.valid null
+25 silly addNamed semver.validRange *
+26 silly addNameRange { name: 'contrib-uglify', range: '*', hasData: false }
+27 silly mapToRegistry name contrib-uglify
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/contrib-uglify
+31 verbose addNameRange registry:https://registry.npmjs.org/contrib-uglify not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/contrib-uglify
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 14:45:24
+35 verbose request id f4656070294b0733
+36 http request GET https://registry.npmjs.org/contrib-uglify
+37 verbose request uri https://registry.npmjs.org/grunt
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 14:45:24
+40 verbose etag "9691Y70Q0S1WJ953OHND4XESH"
+41 http request GET https://registry.npmjs.org/grunt
+42 http 304 https://registry.npmjs.org/grunt
+43 silly get cb [ 304,
+43 silly get   { date: 'Thu, 07 May 2015 19:45:24 GMT',
+43 silly get     via: '1.1 varnish',
+43 silly get     'last-modified': 'Thu, 07 May 2015 19:45:07 GMT',
+43 silly get     'cache-control': 'max-age=60',
+43 silly get     etag: '"9691Y70Q0S1WJ953OHND4XESH"',
+43 silly get     age: '39',
+43 silly get     connection: 'keep-alive',
+43 silly get     'x-served-by': 'cache-ord1726-ORD',
+43 silly get     'x-cache': 'HIT',
+43 silly get     'x-cache-hits': '2',
+43 silly get     'x-timer': 'S1431027924.848466,VS0,VE0',
+43 silly get     vary: 'Accept' } ]
+44 verbose etag https://registry.npmjs.org/grunt from cache
+45 verbose get saving grunt to /Users/ClareJacky/.npm/registry.npmjs.org/grunt/.cache.json
+46 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: true }
+47 silly addNameRange versions [ 'grunt',
+47 silly addNameRange   [ '0.1.0',
+47 silly addNameRange     '0.1.1',
+47 silly addNameRange     '0.1.2',
+47 silly addNameRange     '0.2.0',
+47 silly addNameRange     '0.2.1',
+47 silly addNameRange     '0.2.2',
+47 silly addNameRange     '0.2.3',
+47 silly addNameRange     '0.2.4',
+47 silly addNameRange     '0.2.5',
+47 silly addNameRange     '0.2.6',
+47 silly addNameRange     '0.2.7',
+47 silly addNameRange     '0.2.8',
+47 silly addNameRange     '0.2.9',
+47 silly addNameRange     '0.2.10',
+47 silly addNameRange     '0.2.11',
+47 silly addNameRange     '0.2.12',
+47 silly addNameRange     '0.2.13',
+47 silly addNameRange     '0.2.14',
+47 silly addNameRange     '0.2.15',
+47 silly addNameRange     '0.3.0',
+47 silly addNameRange     '0.3.1',
+47 silly addNameRange     '0.3.2',
+47 silly addNameRange     '0.3.3',
+47 silly addNameRange     '0.3.4',
+47 silly addNameRange     '0.3.5',
+47 silly addNameRange     '0.3.6',
+47 silly addNameRange     '0.3.7',
+47 silly addNameRange     '0.3.8',
+47 silly addNameRange     '0.3.9',
+47 silly addNameRange     '0.3.10',
+47 silly addNameRange     '0.3.11',
+47 silly addNameRange     '0.3.12',
+47 silly addNameRange     '0.3.13',
+47 silly addNameRange     '0.3.14',
+47 silly addNameRange     '0.3.15',
+47 silly addNameRange     '0.3.16',
+47 silly addNameRange     '0.3.17',
+47 silly addNameRange     '0.4.0',
+47 silly addNameRange     '0.4.1',
+47 silly addNameRange     '0.4.2',
+47 silly addNameRange     '0.4.3',
+47 silly addNameRange     '0.4.4',
+47 silly addNameRange     '0.4.5',
+47 silly addNameRange     '0.3.13-a',
+47 silly addNameRange     '0.4.0-a',
+47 silly addNameRange     '0.4.0-rc1',
+47 silly addNameRange     '0.4.0-rc2',
+47 silly addNameRange     '0.4.0-rc3',
+47 silly addNameRange     '0.4.0-rc4',
+47 silly addNameRange     '0.4.0-rc5',
+47 silly addNameRange     '0.4.0-rc6',
+47 silly addNameRange     '0.4.0-rc7',
+47 silly addNameRange     '0.4.0-rc8' ] ]
+48 verbose addNamed grunt@0.4.5
+49 silly addNamed semver.valid 0.4.5
+50 silly addNamed semver.validRange 0.4.5
+51 silly cache afterAdd grunt@0.4.5
+52 verbose afterAdd /Users/ClareJacky/.npm/grunt/0.4.5/package/package.json not in flight; writing
+53 verbose afterAdd /Users/ClareJacky/.npm/grunt/0.4.5/package/package.json written
+54 http 404 https://registry.npmjs.org/contrib-uglify
+55 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+55 verbose headers   'content-type': 'application/json',
+55 verbose headers   'cache-control': 'max-age=0',
+55 verbose headers   'content-length': '51',
+55 verbose headers   'accept-ranges': 'bytes',
+55 verbose headers   date: 'Thu, 07 May 2015 19:45:24 GMT',
+55 verbose headers   via: '1.1 varnish',
+55 verbose headers   age: '0',
+55 verbose headers   connection: 'keep-alive',
+55 verbose headers   'x-served-by': 'cache-ord1724-ORD',
+55 verbose headers   'x-cache': 'MISS',
+55 verbose headers   'x-cache-hits': '0',
+55 verbose headers   'x-timer': 'S1431027924.852141,VS0,VE43' }
+56 silly get cb [ 404,
+56 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+56 silly get     'content-type': 'application/json',
+56 silly get     'cache-control': 'max-age=0',
+56 silly get     'content-length': '51',
+56 silly get     'accept-ranges': 'bytes',
+56 silly get     date: 'Thu, 07 May 2015 19:45:24 GMT',
+56 silly get     via: '1.1 varnish',
+56 silly get     age: '0',
+56 silly get     connection: 'keep-alive',
+56 silly get     'x-served-by': 'cache-ord1724-ORD',
+56 silly get     'x-cache': 'MISS',
+56 silly get     'x-cache-hits': '0',
+56 silly get     'x-timer': 'S1431027924.852141,VS0,VE43' } ]
+57 verbose stack Error: 404 Not Found: contrib-uglify
+57 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:245:14)
+57 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+57 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:360:22)
+57 verbose stack     at Request.emit (events.js:110:17)
+57 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1202:14)
+57 verbose stack     at Request.emit (events.js:129:20)
+57 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1150:12)
+57 verbose stack     at IncomingMessage.emit (events.js:129:20)
+57 verbose stack     at _stream_readable.js:908:16
+57 verbose stack     at process._tickCallback (node.js:355:11)
+58 verbose statusCode 404
+59 verbose pkgid contrib-uglify
+60 verbose cwd /Users/ClareJacky/Desktop/Prime_assignments/Week_4/clare_jacky
+61 error Darwin 14.1.0
+62 error argv "node" "/usr/local/bin/npm" "install" "grunt" "contrib-uglify" "--save"
+63 error node v0.12.2
+64 error npm  v2.7.5
+65 error code E404
+66 error 404 Not Found: contrib-uglify
+66 error 404
+66 error 404 'contrib-uglify' is not in the npm registry.
+66 error 404 You should bug the author to publish it (or use the name yourself!)
+66 error 404 It was specified as a dependency of 'clare_jacky'
+66 error 404
+66 error 404 Note that you can also install from a
+66 error 404 tarball, folder, http url, or git url.
+67 verbose exit [ 1, true ]
