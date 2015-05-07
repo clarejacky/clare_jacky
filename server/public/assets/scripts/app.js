@@ -1,6 +1,6 @@
 var htmldata;
 
-$(document).ready(fucntion(){
+$(document).ready(function(){
     $(".resume").on("click", function(){
 
         $.get('views/resume.html', function (data) {
