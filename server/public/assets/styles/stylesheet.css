@@ -14,3 +14,26 @@ button {
     font-size: 20px;
     margin-left: 10px;
 }
+.quote p {
+    font-size: 18px;
+    width: 400px;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.navbar {
+    margin: 20px 10px;
+}
+.header {
+    margin-top: 30px;
+    height: 100px;
+}
+.contactInfo {
+    text-align: center;
+    margin-top: 30px;
+}
+.contactInfo p {
+    font-size: 14px;
+}
