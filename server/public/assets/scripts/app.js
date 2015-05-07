@@ -5,7 +5,7 @@ $(document).ready(function(){
 
         $.get('views/resume.html', function (data) {
             htmldata = data;
-            (".resumeDiv").append(htmldata);
+            $(".resumeDiv").append(htmldata);
 
         });
 
