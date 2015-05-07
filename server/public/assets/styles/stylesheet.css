@@ -2,6 +2,6 @@ body {
     font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
     color: #323232;
 }
-h1, h2 {
-    display: inline-block;
+.header h1, h2 {
+    display: inline;
 }
