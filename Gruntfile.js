@@ -8,7 +8,8 @@ module.exports = function(grunt) {
                 src: [
                     "bootstrap/dist/css/bootstrap.min.css",
                     "bootstrap/dist/css/bootstrap.css.map",
-                    "jquery/dist/jquery.min.js"
+                    "jquery/dist/jquery.min.js",
+                    "jquery/dist/jquery.min.map"
                 ],
                 "dest": 'server/public/assets/vendors/'
             }
