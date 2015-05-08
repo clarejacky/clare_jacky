@@ -2,23 +2,28 @@ var htmldata;
 
 $(document).ready(function(){
 
-    $(".resume").on("click", function(){
-        $(".resumeDiv").siblings().empty();
-        $.get('views/resume.html', function (data) {
-            htmldata = data;
-            $(".resumeDiv").append(htmldata);
+    $.get('views/resume.html', function (data) {
+        htmldata = data;
+        $(".resumeDiv").append(htmldata).hide();
 
-        });
+    });
+
+    $.get('views/contact.html', function (data) {
+        htmldata = data;
+        $(".contactDiv").append(htmldata).hide();
+
+    });
+
+    $(".resume").on("click", function(){
+        $(".resumeDiv").siblings().hide();
+        $(".resumeDiv").show();
 
     });
 
     $(".contact").on("click", function(){
-        $(".contactDiv").siblings().empty();
-        $.get('views/contact.html', function (data) {
-            htmldata = data;
-            $(".contactDiv").append(htmldata);
+        $(".contactDiv").siblings().hide();
+        $(".contactDiv").show();
 
-        });
 
     });
 
