@@ -1,6 +1,7 @@
 var htmldata;
 
 $(document).ready(function(){
+
     $(".resume").on("click", function(){
         $(".resumeDiv").siblings().empty();
         $.get('views/resume.html', function (data) {
@@ -19,6 +20,10 @@ $(document).ready(function(){
 
         });
 
+    });
+
+    $(".header").on("click", function (){
+        location.reload();
     });
 
 

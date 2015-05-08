@@ -8,6 +8,8 @@ module.exports = function(grunt) {
                 src: [
                     "bootstrap/dist/css/bootstrap.min.css",
                     "bootstrap/dist/css/bootstrap.css.map",
+                    "bootstrap/dist/js/bootstrap.js",
+                    "bootstrap/dist/js/bootstrap.min.js",
                     "jquery/dist/jquery.min.js",
                     "jquery/dist/jquery.min.map"
                 ],
