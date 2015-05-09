@@ -1,46 +1,33 @@
-var beyonce = require('beyonce');
-
 var htmldata;
-
-
-//function dataJson(){
-//    $.ajax({
-//        url: '/.assets/data',
-//        data: JSON.stringify(),
-//        success: function(response) {
-//            $('.contact').append(response);
-//        }
-//    });
-//    console.log(response);
-//}
 
 $(document).ready(function(){
 
-function htmlData() {
     $.get('views/resume.html', function (data) {
         htmldata = data;
         $(".resumeDiv").append(htmldata).hide();
 
     });
-}
+
+    $.getJSON('assets/data/data.json', function (data) {
+        console.log(data);
+        $(".contactDiv").append(data.name+"</br>");
+        $(".contactDiv").append(data.email+"</br>");
+        $(".contactDiv").append(data.phoneNumber);
 
 
+    });
 
     $(".resume").on("click", function(){
         $(".resumeDiv").siblings().hide();
-        htmlData();
         $(".resumeDiv").show();
 
     });
 
-    //$(".contact").on("click", function(){
-    //    dataJson();
-    //    console.log("Hello");
-    //
-    //});
+    $(".contact").on("click", function(){
+        $(".contactDiv").siblings().hide();
+        $(".contactDiv").show();
 
-    $(".projects").on("click", function(){
-        beyonce();
+
     });
 
     $(".header").on("click", function (){
