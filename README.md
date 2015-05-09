@@ -27,3 +27,9 @@ Style Choices:
 The styling of this application will be clean and relatively startk, utlizing a white background and dark lettering.
 The navigation buttons will be flat without border shading.
 
+TODO:
+Change social media to clickable icons
+change nav bar to non-button divs
+convert contact information to json object
+api call
+

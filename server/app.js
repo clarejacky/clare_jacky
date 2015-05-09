@@ -1,9 +1,15 @@
 var express = require('express');
 var app = express();
 
+
 var path = require('path');
 
 app.set('port', (process.env.PORT || 5000));
+
+//app.get('assets/data', function(request, response){
+//    response.sendFile(path.join(__dirname, './public/assets/data/data.json'));
+//});
+
 
 app.get('/*', function(request, response){
     var file = request.params[0] || 'views/index.html';
