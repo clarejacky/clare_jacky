@@ -8,11 +8,12 @@ $(document).ready(function(){
 
     });
 
+
     $.getJSON('assets/data/data.json', function (data) {
         console.log(data);
-        $(".contactDiv").append(data.name+"</br>");
-        $(".contactDiv").append(data.email+"</br>");
-        $(".contactDiv").append(data.phoneNumber);
+        $(".contactDiv").append(data.name+"</br>").hide();
+        $(".contactDiv").append(data.email+"</br>").hide();
+        $(".contactDiv").append(data.phoneNumber).hide();
 
 
     });
@@ -29,6 +30,11 @@ $(document).ready(function(){
 
 
     });
+
+    $(".projects").on("click", function() {
+      console.log("Hello");
+
+    })
 
     $(".header").on("click", function (){
         location.reload();
