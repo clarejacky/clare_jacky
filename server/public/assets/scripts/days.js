@@ -35,11 +35,10 @@ var birthday = dayOfBirthday();
 var dayYear = dayOfTheYear();
 
 var daysUntilthirty = function (){
-    //alert("Clare Jacky will be 30 in "++ " days!");
-    return console.log(birthday - dayYear);
+    $('.project').append("<p>Clare Jacky will be 30 in "+(birthday - dayYear)+ " days!</p>");
+    console.log("Hi there");
 
-}
-console.log(daysUntilthirty);
+};
 
 
 

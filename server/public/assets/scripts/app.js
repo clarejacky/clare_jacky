@@ -1,5 +1,15 @@
 var htmldata;
 
+function getData(){
+    $.ajax({
+        url: '/project',
+        success: function(response) {
+            $('.project').append(response);
+
+        }
+    });
+}
+
 $(document).ready(function(){
 
     $.get('views/resume.html', function (data) {
@@ -32,7 +42,7 @@ $(document).ready(function(){
     });
 
     $(".projects").on("click", function() {
-      console.log("Hello");
+      getData();
 
     })
 
