@@ -5,7 +5,7 @@ function getData(){
         url: '/project',
         success: function(response) {
             $('.project').append(response);
-
+        console.log(response);
         }
     });
 }

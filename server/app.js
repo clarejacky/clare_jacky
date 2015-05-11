@@ -7,7 +7,7 @@ var days = require('./public/assets/scripts/days.js');
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/project', function(request, response){
-    response.sendFile(path.join(__dirname, './public/assets/scripts/days.js'));
+    response.send(days());
     console.log("Hi");
 });
 
